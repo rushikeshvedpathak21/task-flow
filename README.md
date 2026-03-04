@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TaskFlow — Full-Stack Task Management Application
 
 > Angular 17 · Spring Boot 3 · Bootstrap 5 · Tailwind CSS 3 · MySQL/PostgreSQL
@@ -105,3 +106,6 @@ ng serve
 Email:    alex@example.com
 Password: password123
 ```
+=======
+# task-flow
+>>>>>>> 60088589ebcb160079c60a7aa61666f776b578ad
