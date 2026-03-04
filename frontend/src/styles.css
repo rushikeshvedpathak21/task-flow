@@ -1,0 +1,40 @@
+/* Global styles for TaskFlow */
+body {
+  background-color: #F4F6FA;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  color: #1E293B;
+}
+
+/* Task card hover */
+.task-card {
+  transition: box-shadow 0.2s ease;
+  cursor: pointer;
+}
+.task-card:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12) !important;
+}
+
+/* Status badges */
+.badge-todo        { background: #EFF6FF !important; color: #2563EB !important; border: 1px solid #BFDBFE; }
+.badge-in-progress { background: #FFFBEB !important; color: #D97706 !important; border: 1px solid #FCD34D; }
+.badge-done        { background: #F0FDF4 !important; color: #16A34A !important; border: 1px solid #86EFAC; }
+
+/* Priority badges */
+.badge-high   { background: #FEF2F2 !important; color: #DC2626 !important; border: 1px solid #FCA5A5; }
+.badge-medium { background: #FFFBEB !important; color: #D97706 !important; border: 1px solid #FCD34D; }
+.badge-low    { background: #F0FDF4 !important; color: #16A34A !important; border: 1px solid #86EFAC; }
+
+/* Modal overlay */
+.modal.d-block {
+  animation: fadeIn 0.15s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #F1F5F9; }
+::-webkit-scrollbar-thumb { background: #CBD5E1; border-radius: 4px; }
